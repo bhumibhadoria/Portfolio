@@ -112,7 +112,7 @@ const SectionWrapper = (Component, idName) =>
     )
   };
 
-  const ProjectCard = ({ index, name, description, tags, image, demo_link }) => {
+  const ProjectCard = ({ index, name, description, tags,image, demo_link }) => {
     return (
       <motion.div
         variants={fadeIn('up', 'spring', index * 0.5, 0.75)}

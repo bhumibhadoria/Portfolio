@@ -45,7 +45,7 @@ const ContactForm = () => {
           className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
         >
           <Typewriter words={["Let's get in touch!"]} loop={true} />
-          &nbsp;
+           &nbsp;
         </h2>
       </div>
       <div className="w-full flex justify-center">

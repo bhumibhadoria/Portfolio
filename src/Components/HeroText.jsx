@@ -1,4 +1,3 @@
-
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
@@ -20,14 +19,14 @@ const HeroText = () => {
           <m.span
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 0.6, type: "spring" }}
+            transition={{ duration: 0.9, type: "spring" }}
           >
             Hey, I'm {" "}
           </m.span>
           <m.div
             initial={{ x: 100 }}
             whileInView={{ x: 0 }}
-            transition={{ duration: 0.6, type: "spring" }}
+            transition={{ duration: 0.9, type: "spring" }}
           >
             {name.split("").map((char, index) => {
               if (char === " ") {

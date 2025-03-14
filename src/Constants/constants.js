@@ -77,7 +77,7 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! :)",
 
-    "My name is Bhumi, I'm 20 and a second year computer science student based in Chennai. I have a strong passion for web development and I'm always eager to learn new technologies.",
+    "My name is Bhumi, I'm 22 and a final year computer science student based in Chennai. I have a strong passion for full stack development, AI driven tech and I'm always eager to learn new technologies.",
 
     "Outside of my regular activities, I'm into competitive programming, travelling, and watching movies. I also learning combat sports and I'm a huge fan of the Marvel Cinematic Universe.",
 
@@ -106,27 +106,30 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    name: "TaxSmart",
+    description: "An intelligent tax optimization and filing assistant.",
+    image: calculator,  // Replace with actual image path
+    source_code_link: "https://github.com/bhumibhadoria/TaxSmart/",
+    demo_link: "https://github.com/bhumibhadoria/TaxSmart/",
   },
   {
-    name: 'Pawsitive',
-    description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
-    image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
+    name: "CreditWise",
+    description: "A financial literacy and credit score monitoring tool.",
+    image: memoryGame, // Replace with actual image path
+    source_code_link: "https://github.com/bhumibhadoria/creditwise",
+    demo_link: "https://github.com/bhumibhadoria/creditwise",
   },
   {
-    name: 'Basic Calculator',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-    image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
+    name: "SerenityAI",
+    description: "A mental health chatbot with sentiment analysis.",
+    image: memoryGame, // Replace with actual image path
+    source_code_link: "https://github.com/bhumibhadoria/SerenityAI",
+    demo_link: "https://github.com/bhumibhadoria/SerenityAI",
   },
 ];
+
+export default projects;
+
 
 const memoji = {
   image: [avatar],
